@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Connect King County | Contact</title>
+	<link href="../css/main.css" rel="stylesheet">
+	<link href="../css/form.css" rel="stylesheet">
+	<link href="../css/footer.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 class="page_title">Welcome to Connect King County</h1>
+	<h1 class="page_title">Contact Connect King County</h1>
+  </header>
+  <main>
+    <article>
+      <p>Welcome! We are glad to get in touch with you!</p>
+
+      <p>To contact us, please fill out the below contact form. If you want a response, please also include an email address we can reach you at.</p>
+
+      <form enctype="text/plain" method="post" action="mailto:s-geoffrey.powell-is@lwtech.edu" id="contact_form" onsubmit="location.href='thanks.htm';">
+        <p>Your email: <input class="form_field" class="form_field" type="text" name="contact_email_address" id="contact_email_address"></p>
+        <p>First name: <input class="form_field" type="text" name="contact_name_first" id="contact_name_first"></p>
+        <p>Last name: <input class="form_field" type="text" name="contact_name_last" id="contact_name_last"></p>
+        <p>Subject: <input class="form_field" type="text" name="contact_subject" id="contact_subject"></p>
+        <p>Message:<br><textarea class="form_field" name="contact_message" form="contact_form" id="contact_message"></textarea></p>
+        <input class="form_field form_button" type="submit" action="post" value="Submit">
+        <input class="form_field form_button" type="reset" action="clear" value="Clear">
+      </form>
+    </article>
+  </main>
+  <footer>
+    <div id="nav_container">
+    <nav>
+      <ul>
+        <li id="home_page_link" class="nav_left"><a href="../index.htm">Home Page</a></li>
+        <li id="contact_page_link" class="nav_right"><a href="contact.htm">Contact</a></li>
+        <li id="about_page_link" class="nav_right"><a href="about.htm">About</a></li>
+      </ul>
+	</nav>
+    </div>
+    <p class="copyright_text">&copy;2017 Connect King County</p>
+  </footer>
+</body>
+</html>

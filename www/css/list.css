@@ -1,0 +1,13 @@
+.list_item {}
+li.list_item {}
+h2.list_item {
+	background-color: #7F2D00;
+	color: #FF5A00;
+	margin-bottom: 0.25em;
+}
+.accordion_hide {
+	display: none;
+}
+.accordion_show {
+	/*display: block;*/
+}

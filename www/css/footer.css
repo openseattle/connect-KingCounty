@@ -1,0 +1,42 @@
+footer {
+	width: 100%;
+	padding-left: 0;
+}
+footer nav {
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	/*text-align: center;*/
+	/*position: relative;*/
+	background-color: #301100;
+	width: 100%;
+	display: block;
+	overflow: auto;
+}
+nav ul li {
+	font-size: 1.2em;
+	/*display: inline-block;*/
+	/*background-color: pink;*/
+	padding: 0.25em;
+}
+
+.nav_left {float: left;}
+.nav_right {float: right;}
+
+nav ul li a:link {
+	color: #CCCCFF;
+}
+nav ul li a:visited {color: #555533;}
+nav ul li a:hover {}
+nav ul li #home_page_link {
+	position: absolute;
+	left: 1em;
+}
+nav#contact_page_link {}
+nav#about_page_link {}
+footer .copyright_text {
+	clear: both;
+	width: 100%;
+}
